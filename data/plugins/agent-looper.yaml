@@ -1,0 +1,4 @@
+name: Agent Looper
+repo: https://github.com/dancingteeth/agent-looper/tree/main/plugins/opencode-agent-looper
+tagline: Fix-until-green loops. Freeze GOAL.md + verify.sh, run the Agent Looper grind detached, check its status.
+description: OpenCode companion for Agent Looper (npm @dancingteeth/agent-looper), a harness that keeps a worker agent iterating until a shell verify script passes, with an optional judge review. The plugin adds skills for designing a frozen GOAL.md + verify.sh, an agent_loop_start tool that runs the loop detached so the shell timeout cannot kill it, an agent_loop_status tool, and a guard against foreground runs. Works on OpenCode 1.x and 2.x.
